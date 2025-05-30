@@ -95,7 +95,7 @@
 </template>
 
 <script>
-import LogoHimatifBGBLK from '@/assets/images/logo-himatif-bgblack.svg';
+import LogoHimatifBGBLK from '@/assets/Images/logo-himatif-bgblack.svg';
 
 export default {
   name: 'Footer',

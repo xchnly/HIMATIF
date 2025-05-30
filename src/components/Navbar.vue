@@ -40,7 +40,7 @@
 
 <script>
 
-import LogoHimatifBGWHT from '@/assets/images/logo-himatif-bgwhite.svg'
+import LogoHimatifBGWHT from '@/assets/Images/logo-himatif-bgwhite.svg'
 
 export default {
   name: 'Navbar',

@@ -17,7 +17,7 @@
           <!-- Animated heading with gradient text -->
           <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold mb-4 sm:mb-6 leading-tight">
             <span class="text-transparent bg-clip-text bg-gradient-to-r from-yellow-300 via-yellow-400 to-yellow-500 animate-text-shimmer">
-              HIMATIF UNIVERSAL
+              HIMATIF UNIVERSITAS UNIVERSAL
             </span>
           </h1>
           
