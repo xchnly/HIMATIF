@@ -23,7 +23,7 @@
           
           <!-- Glowing text -->
           <p class="text-base sm:text-lg md:text-xl mb-6 sm:mb-8 text-indigo-100 max-w-lg glow-text">
-            Himpunan Mahasiswa Teknik Informatika Universitas Universal - Wadah kreativitas, inovasi, dan pengembangan diri bagi mahasiswa TI.
+            Himpunan Mahasiswa Teknik Informatika Universitas Universal - Wadah kreativitas, inovasi, dan pengembangan diri bagi mahasiswa TIF.
           </p>
           
           <!-- Animated buttons with hover effects -->

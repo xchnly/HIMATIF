@@ -5,7 +5,7 @@
       <Hero />
       <About />
       <Events />
-      <Gallery />
+      <News />
       <Team />
       <Contact />
     </main>
@@ -18,8 +18,8 @@ import Navbar from './components/Navbar.vue'
 import Hero from './components/Hero.vue'
 import About from './components/About.vue'
 import Events from './components/Events.vue'
-import Gallery from './components/Gallery.vue'
 import Team from './components/Team.vue'
+import News from './components/NewsSection.vue'
 import Contact from './components/Contact.vue'
 import Footer from './components/Footer.vue'
 
@@ -30,8 +30,8 @@ export default {
     Hero,
     About,
     Events,
-    Gallery,
     Team,
+    News,
     Contact,
     Footer
   }

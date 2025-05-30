@@ -11,7 +11,7 @@
         <div class="hidden md:ml-6 md:flex md:items-center md:space-x-8">
           <a href="#about" @click.prevent="scrollToSection('about')" class="text-gray-900 hover:text-indigo-600 px-3 py-2 text-md font-medium">Tentang</a>
           <a href="#events" @click.prevent="scrollToSection('events')" class="text-gray-900 hover:text-indigo-600 px-3 py-2 text-md font-medium">Kegiatan</a>
-          <a href="#gallery" @click.prevent="scrollToSection('gallery')" class="text-gray-900 hover:text-indigo-600 px-3 py-2 text-md font-medium">Galeri</a>
+          <a href="#news" @click.prevent="scrollToSection('news')" class="text-gray-900 hover:text-indigo-600 px-3 py-2 text-md font-medium">Berita</a>
           <a href="#team" @click.prevent="scrollToSection('team')" class="text-gray-900 hover:text-indigo-600 px-3 py-2 text-md font-medium">Pengurus</a>
           <a href="#contact" @click.prevent="scrollToSection('contact')" class="text-gray-900 hover:text-indigo-600 px-3 py-2 text-md font-medium">Kontak</a>
         </div>
@@ -30,7 +30,7 @@
       <div class="pt-2 pb-3 space-y-1">
         <a href="#about" @click.prevent="scrollToSection('about')" class="block px-3 py-2 text-base font-medium text-gray-900 hover:text-indigo-600 hover:bg-gray-50">Tentang</a>
         <a href="#events" @click.prevent="scrollToSection('events')" class="block px-3 py-2 text-base font-medium text-gray-900 hover:text-indigo-600 hover:bg-gray-50">Kegiatan</a>
-        <a href="#gallery" @click.prevent="scrollToSection('gallery')" class="block px-3 py-2 text-base font-medium text-gray-900 hover:text-indigo-600 hover:bg-gray-50">Galeri</a>
+        <a href="#news" @click.prevent="scrollToSection('news')" class="block px-3 py-2 text-base font-medium text-gray-900 hover:text-indigo-600 hover:bg-gray-50">Berita</a>
         <a href="#team" @click.prevent="scrollToSection('team')" class="block px-3 py-2 text-base font-medium text-gray-900 hover:text-indigo-600 hover:bg-gray-50">Pengurus</a>
         <a href="#contact" @click.prevent="scrollToSection('contact')" class="block px-3 py-2 text-base font-medium text-gray-900 hover:text-indigo-600 hover:bg-gray-50">Kontak</a>
       </div>

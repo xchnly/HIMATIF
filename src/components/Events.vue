@@ -27,47 +27,36 @@
             </div>
             <h3 class="text-xl font-bold text-gray-900 mb-3">{{ event.title }}</h3>
             <p class="text-gray-600 mb-4">{{ event.description }}</p>
-            <button class="text-indigo-600 font-medium hover:text-indigo-800 flex items-center">
-              Selengkapnya
-              <svg class="h-4 w-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
-              </svg>
-            </button>
           </div>
         </div>
-      </div>
-
-      <div class="text-center mt-12">
-        <button class="bg-indigo-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-indigo-700 transition duration-300 shadow-md inline-flex items-center">
-          Lihat Semua Kegiatan
-          <svg class="h-5 w-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
-          </svg>
-        </button>
       </div>
     </div>
   </section>
 </template>
 
 <script>
+
+import Kegiatan1 from '@/assets/Images/KEGIATAN1.jpg'
+import Kegiatan2 from '@/assets/Images/KEGIATAN2.jpg'
+
 export default {
   name: 'Events',
   data() {
     return {
       events: [
         {
-          title: 'TechTalk Series: AI Revolution',
-          description: 'Diskusi tentang perkembangan terkini dalam bidang Artificial Intelligence dan aplikasinya di industri.',
-          date: '15 Juni 2023',
-          category: 'Seminar',
-          image: 'https://via.placeholder.com/400x300'
+          title: 'Modeling The Creativity',
+          description: '3D Modeling Workshop',
+          date: '19 April 2025',
+          category: 'Workshop',
+          image: Kegiatan1
         },
         {
-          title: 'Hackathon HIMATIF 2023',
+          title: 'UVERS Charity',
           description: 'Kompetisi coding 24 jam untuk mengembangkan solusi teknologi inovatif bagi masalah sosial.',
           date: '28-29 Juli 2023',
-          category: 'Kompetisi',
-          image: 'https://via.placeholder.com/400x300'
+          category: 'Bakti Sosial',
+          image: Kegiatan2
         },
         {
           title: 'Pelatihan Web Development',
