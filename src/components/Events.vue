@@ -38,6 +38,7 @@
 
 import Kegiatan1 from '@/assets/Images/KEGIATAN1.jpg'
 import Kegiatan2 from '@/assets/Images/KEGIATAN2.jpg'
+import Kegiatan3 from '@/assets/Images/KEGIATAN3.jpg'
 
 export default {
   name: 'Events',
@@ -53,17 +54,17 @@ export default {
         },
         {
           title: 'UVERS Charity',
-          description: 'Kompetisi coding 24 jam untuk mengembangkan solusi teknologi inovatif bagi masalah sosial.',
+          description: 'Gabungan dengan Himpunan lain, berbagi sembako dan sebagainya untuk warga sekitar',
           date: '28-29 Juli 2023',
           category: 'Bakti Sosial',
           image: Kegiatan2
         },
         {
-          title: 'Pelatihan Web Development',
-          description: 'Workshop intensif untuk mempelajari pengembangan website modern dengan teknologi terbaru.',
-          date: '10 Agustus 2023',
-          category: 'Workshop',
-          image: 'https://via.placeholder.com/400x300'
+          title: 'Penayangan Film Karya UVERS',
+          description: 'Penayangan Film karya mahasiswa/i Teknik Informatika UVERS Angkatan 2023 dan 2022',
+          date: '22 Mei 2025',
+          category: 'Karya',
+          image: Kegiatan3
         }
       ]
     }

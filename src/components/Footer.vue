@@ -23,7 +23,7 @@
                                 <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
                             </svg>
                         </a>
-                        <a href="#" class="text-gray-400 hover:text-white">
+                        <a href="mailto:uvershimatif@gmail.com" class="text-gray-400 hover:text-white">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                 stroke-linejoin="round" class="lucide lucide-mail-icon lucide-mail">
@@ -52,22 +52,6 @@
                 </div>
 
                 <div>
-                    <h3 class="text-lg font-semibold mb-4">Program Kerja</h3>
-                    <ul class="space-y-2">
-                        <li><a href="#" class="text-gray-400 hover:text-white transition duration-300">TechTalk
-                                Series</a></li>
-                        <li><a href="#" class="text-gray-400 hover:text-white transition duration-300">HIMATIF
-                                Hackathon</a></li>
-                        <li><a href="#" class="text-gray-400 hover:text-white transition duration-300">Pelatihan IT</a>
-                        </li>
-                        <li><a href="#" class="text-gray-400 hover:text-white transition duration-300">Kunjungan
-                                Industri</a></li>
-                        <li><a href="#" class="text-gray-400 hover:text-white transition duration-300">Kegiatan
-                                Sosial</a></li>
-                    </ul>
-                </div>
-
-                <div>
                     <h3 class="text-lg font-semibold mb-4">Kontak</h3>
                     <ul class="space-y-2 text-gray-400">
                         <li class="flex items-start">
@@ -81,6 +65,7 @@
                             </svg>
                             <span>Universitas Universal Batam</span>
                         </li>
+                        <a href="mailto:uvershimatif@gmail.com">
                         <li class="flex items-start">
                             <svg class="h-5 w-5 mr-2 text-gray-500" fill="none" stroke="currentColor"
                                 viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -88,8 +73,9 @@
                                     d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z">
                                 </path>
                             </svg>
-                            <span>himatif@gmail.com</span>
+                            <span>uvershimatif@gmail.com</span>
                         </li>
+                        </a>
                     </ul>
                 </div>
             </div>

@@ -15,19 +15,19 @@
                 <div class="relative">
                     <div class="grid grid-cols-2 gap-4">
                         <div class="rounded-lg overflow-hidden shadow-lg">
-                            <img src="https://via.placeholder.com/300x300" alt="HIMATIF Activity 1"
-                                class="w-full h-full object-cover">
+                            <img :src="Kegiatan1" alt="HIMATIF Activity 1"
+                                class="w-full h-full object-cover ">
                         </div>
                         <div class="rounded-lg overflow-hidden shadow-lg mt-8">
-                            <img src="https://via.placeholder.com/300x300" alt="HIMATIF Activity 2"
+                            <img :src="Kegiatan3" alt="HIMATIF Activity 2"
                                 class="w-full h-full object-cover">
                         </div>
                         <div class="rounded-lg overflow-hidden shadow-lg">
-                            <img src="https://via.placeholder.com/300x300" alt="HIMATIF Activity 3"
+                            <img :src="Kegiatan2" alt="HIMATIF Activity 3"
                                 class="w-full h-full object-cover">
                         </div>
                         <div class="rounded-lg overflow-hidden shadow-lg mt-8">
-                            <img src="https://via.placeholder.com/300x300" alt="HIMATIF Activity 4"
+                            <img :src="Kegiatan4" alt="HIMATIF Activity 4"
                                 class="w-full h-full object-cover">
                         </div>
                     </div>
@@ -87,8 +87,10 @@
     </section>
 </template>
 
-<script>
-export default {
-    name: 'About'
-}
+<script setup>
+import Kegiatan1 from '@/assets/Images/KEGIATAN1.jpg'
+import Kegiatan2 from '@/assets/Images/KEGIATAN2.jpg'
+import Kegiatan3 from '@/assets/Images/KEGIATAN3.jpg'
+import Kegiatan4 from '@/assets/Images/KEGIATAN4.jpg'
+
 </script>

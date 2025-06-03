@@ -92,12 +92,6 @@
                   {{ item.type === 'achievement' ? 'Mahasiswa TIF' : 'Proyek Teknik Informatika' }}
                 </p>
               </div>
-              <button class="ml-auto text-indigo-600 dark:text-indigo-400 hover:text-indigo-800 dark:hover:text-indigo-300 text-sm font-medium flex items-center">
-                Baca Selengkapnya
-                <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
-                </svg>
-              </button>
             </div>
           </div>
         </div>
@@ -120,7 +114,7 @@ export default {
       activeTab: 'all',
       newsItems: [
         {
-          type: 'achievement',
+          type: 'project',
           title: 'Juara 1 Hackathon Nasional 2023',
           description: 'Mahasiswa TIF berhasil meraih juara 1 dalam kompetisi Hackathon Nasional dengan proyek aplikasi AI untuk kesehatan mental.',
           date: '15 Oktober 2023',
@@ -141,50 +135,6 @@ export default {
             avatar: 'https://via.placeholder.com/150/6366F1/FFFFFF?text=TIF'
           }
         },
-        {
-          type: 'achievement',
-          title: 'Finalis Kompetisi Data Science Internasional',
-          description: 'Mahasiswa TIF lolos sebagai finalis dalam kompetisi data science tingkat internasional yang diadakan di Singapura.',
-          date: '28 September 2023',
-          image: 'https://images.unsplash.com/photo-1521737711867-e3b97375f902?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
-          author: {
-            name: 'Sarah Wijaya',
-            avatar: 'https://randomuser.me/api/portraits/women/44.jpg'
-          }
-        },
-        {
-          type: 'project',
-          title: 'Aplikasi Manajemen Sampah Kampus',
-          description: 'Proyek TIF menciptakan aplikasi manajemen sampah berbasis mobile untuk meningkatkan kebersihan lingkungan kampus.',
-          date: '20 Oktober 2023',
-          image: 'https://images.unsplash.com/photo-1587135991058-8816a5a7e967?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
-          author: {
-            name: 'Tim TIF',
-            avatar: 'https://via.placeholder.com/150/6366F1/FFFFFF?text=TIF'
-          }
-        },
-        {
-          type: 'achievement',
-          title: 'Publikasi Jurnal Internasional',
-          description: 'Mahasiswa TIF berhasil mempublikasikan penelitian tentang machine learning dalam jurnal internasional bereputasi.',
-          date: '10 November 2023',
-          image: 'https://images.unsplash.com/photo-1532094349884-543bc11b234d?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
-          author: {
-            name: 'Rizky Pratama',
-            avatar: 'https://randomuser.me/api/portraits/men/75.jpg'
-          }
-        },
-        {
-          type: 'project',
-          title: 'Platform E-Learning Inovatif',
-          description: 'Pengembangan platform e-learning dengan fitur adaptive learning untuk mendukung proses pembelajaran di kampus.',
-          date: '1 Desember 2023',
-          image: 'https://images.unsplash.com/photo-1546410531-bb4caa6b424d?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
-          author: {
-            name: 'Tim TIF',
-            avatar: 'https://via.placeholder.com/150/6366F1/FFFFFF?text=TIF'
-          }
-        }
       ]
     }
   },

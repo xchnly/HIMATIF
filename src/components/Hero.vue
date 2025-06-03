@@ -78,6 +78,8 @@
 </template>
 
 <script>
+
+
 export default {
   name: 'Hero',
   mounted() {
