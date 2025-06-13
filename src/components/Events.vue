@@ -3,7 +3,7 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center mb-16">
         <h2 class="text-3xl font-extrabold text-gray-900 sm:text-4xl">
-          Kegiatan <span class="text-indigo-600">HIMATIF</span>
+          Kegiatan <span class="text-red-600">HIMATIF</span>
         </h2>
         <div class="mt-4 max-w-3xl mx-auto text-xl text-gray-500">
           Berbagai program kerja dan kegiatan yang kami selenggarakan untuk pengembangan anggota.
@@ -14,7 +14,7 @@
         <div v-for="(event, index) in events" :key="index" class="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition duration-300">
           <div class="relative">
             <img :src="event.image" :alt="event.title" class="w-full h-48 object-cover">
-            <div class="absolute top-4 right-4 bg-indigo-600 text-white px-3 py-1 rounded-full text-xs font-semibold">
+            <div class="absolute top-4 right-4 bg-red-600 text-white px-3 py-1 rounded-full text-xs font-semibold">
               {{ event.category }}
             </div>
           </div>

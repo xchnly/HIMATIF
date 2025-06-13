@@ -5,15 +5,15 @@
         <div class="flex items-center">
           <router-link to="/" class="flex-shrink-0 flex items-center" @click="scrollToTop">
             <img class="h-24 w-auto" :src="LogoHimatifBGWHT" alt="Logo HIMATIF">
-            <span class="ml-2 text-xl font-bold text-indigo-600">HIMATIF</span>
+            <span class="ml-2 text-xl font-bold text-red-600">HIMATIF</span>
           </router-link>
         </div>
         <div class="hidden md:ml-6 md:flex md:items-center md:space-x-8">
-          <a href="#about" @click.prevent="scrollToSection('about')" class="text-gray-900 hover:text-indigo-600 px-3 py-2 text-md font-medium">Tentang</a>
-          <a href="#events" @click.prevent="scrollToSection('events')" class="text-gray-900 hover:text-indigo-600 px-3 py-2 text-md font-medium">Kegiatan</a>
-          <a href="#news" @click.prevent="scrollToSection('news')" class="text-gray-900 hover:text-indigo-600 px-3 py-2 text-md font-medium">Berita</a>
-          <a href="#team" @click.prevent="scrollToSection('team')" class="text-gray-900 hover:text-indigo-600 px-3 py-2 text-md font-medium">Pengurus</a>
-          <a href="#contact" @click.prevent="scrollToSection('contact')" class="text-gray-900 hover:text-indigo-600 px-3 py-2 text-md font-medium">Kontak</a>
+          <a href="#about" @click.prevent="scrollToSection('about')" class="text-gray-900 hover:text-red-600 px-3 py-2 text-md font-medium">Tentang</a>
+          <a href="#events" @click.prevent="scrollToSection('events')" class="text-gray-900 hover:text-red-600 px-3 py-2 text-md font-medium">Kegiatan</a>
+          <a href="#news" @click.prevent="scrollToSection('news')" class="text-gray-900 hover:text-red-600 px-3 py-2 text-md font-medium">Berita</a>
+          <a href="#team" @click.prevent="scrollToSection('team')" class="text-gray-900 hover:text-red-600 px-3 py-2 text-md font-medium">Pengurus</a>
+          <a href="#contact" @click.prevent="scrollToSection('contact')" class="text-gray-900 hover:text-red-600 px-3 py-2 text-md font-medium">Kontak</a>
         </div>
         <div class="-mr-2 flex items-center md:hidden">
           <button @click="toggleMenu" class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none">
@@ -28,11 +28,11 @@
     <!-- Mobile menu -->
     <div v-if="isMenuOpen" class="md:hidden">
       <div class="pt-2 pb-3 space-y-1">
-        <a href="#about" @click.prevent="scrollToSection('about')" class="block px-3 py-2 text-base font-medium text-gray-900 hover:text-indigo-600 hover:bg-gray-50">Tentang</a>
-        <a href="#events" @click.prevent="scrollToSection('events')" class="block px-3 py-2 text-base font-medium text-gray-900 hover:text-indigo-600 hover:bg-gray-50">Kegiatan</a>
-        <a href="#news" @click.prevent="scrollToSection('news')" class="block px-3 py-2 text-base font-medium text-gray-900 hover:text-indigo-600 hover:bg-gray-50">Berita</a>
-        <a href="#team" @click.prevent="scrollToSection('team')" class="block px-3 py-2 text-base font-medium text-gray-900 hover:text-indigo-600 hover:bg-gray-50">Pengurus</a>
-        <a href="#contact" @click.prevent="scrollToSection('contact')" class="block px-3 py-2 text-base font-medium text-gray-900 hover:text-indigo-600 hover:bg-gray-50">Kontak</a>
+        <a href="#about" @click.prevent="scrollToSection('about')" class="block px-3 py-2 text-base font-medium text-gray-900 hover:text-red-600 hover:bg-gray-50">Tentang</a>
+        <a href="#events" @click.prevent="scrollToSection('events')" class="block px-3 py-2 text-base font-medium text-gray-900 hover:text-red-600 hover:bg-gray-50">Kegiatan</a>
+        <a href="#news" @click.prevent="scrollToSection('news')" class="block px-3 py-2 text-base font-medium text-gray-900 hover:text-red-600 hover:bg-gray-50">Berita</a>
+        <a href="#team" @click.prevent="scrollToSection('team')" class="block px-3 py-2 text-base font-medium text-gray-900 hover:text-red-600 hover:bg-gray-50">Pengurus</a>
+        <a href="#contact" @click.prevent="scrollToSection('contact')" class="block px-3 py-2 text-base font-medium text-gray-900 hover:text-red-600 hover:bg-gray-50">Kontak</a>
       </div>
     </div>
   </nav>

@@ -3,7 +3,7 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
                 <h2 class="text-3xl font-extrabold text-gray-900 sm:text-4xl">
-                    Pengurus <span class="text-indigo-600">HIMATIF</span>
+                    Pengurus <span class="text-red-600">HIMATIF</span>
                 </h2>
                 <div class="mt-4 max-w-3xl mx-auto text-xl text-gray-500">
                     Tim pengurus HIMATIF UNIVERSAL periode 2023/2024 yang siap melayani dan memajukan himpunan.
@@ -19,12 +19,12 @@
                         </div>
                         <div class="absolute bottom-4 left-4">
                             <h3 class="text-white font-bold text-xl">{{ member.name }}</h3>
-                            <p class="text-indigo-200">{{ member.position }}</p>
+                            <p class="text-red-200">{{ member.position }}</p>
                         </div>
                     </div>
                     <div class="p-6">
                         <div class="flex justify-center space-x-4">
-                            <a :href="member.social.github" target="_blank" class="text-gray-400 hover:text-indigo-600">
+                            <a :href="member.social.github" target="_blank" class="text-gray-400 hover:text-red-600">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                     fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                     stroke-linejoin="round" class="lucide lucide-github-icon lucide-github">
@@ -34,7 +34,7 @@
                                 </svg>
                             </a>
                             <a :href="member.social.instagram" target="_blank"
-                                class="text-gray-400 hover:text-indigo-600">
+                                class="text-gray-400 hover:text-red-600">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                     fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                     stroke-linejoin="round" class="lucide lucide-instagram-icon lucide-instagram">
@@ -43,7 +43,7 @@
                                     <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
                                 </svg>
                             </a>
-                            <a :href="member.social.email" target="_blank" class="text-gray-400 hover:text-indigo-600">
+                            <a :href="member.social.email" target="_blank" class="text-gray-400 hover:text-red-600">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                     fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                     stroke-linejoin="round" class="lucide lucide-mail-icon lucide-mail">
@@ -87,7 +87,7 @@ export default {
                 },
                 {
                     name: 'Hendry',
-                    position: 'Ketua HIMATIF',
+                    position: 'Ketua HIMATIF (PLT)',
                     photo: 'https://images.unsplash.com/photo-1485827404703-89b55fcc595e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
                     social: {
                         github: '#',
@@ -199,6 +199,16 @@ export default {
                     name: 'Samuel Jackson',
                     position: 'Anggota Minat Bakat',
                     photo: 'https://images.unsplash.com/photo-1485827404703-89b55fcc595e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D0',
+                    social: {
+                        github: '#',
+                        instagram: '#',
+                        email: '#'
+                    }
+                },
+                {
+                    name: 'Tino Winata Sumarno',
+                    position: 'Ex Ketua HIMATIF',
+                    photo: 'https://images.unsplash.com/photo-1485827404703-89b55fcc595e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
                     social: {
                         github: '#',
                         instagram: '#',

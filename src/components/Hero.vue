@@ -1,7 +1,7 @@
 <template>
-  <section class="relative bg-gradient-to-r from-indigo-600 via-purple-600 to-indigo-800 text-white overflow-hidden">
+  <section class="relative bg-gradient-to-r from-red-600 via-red-950 to-red-800 text-white overflow-hidden">
     <!-- Animated gradient background -->
-    <div class="absolute inset-0 bg-gradient-to-r from-indigo-600 via-purple-600 to-indigo-800 animate-gradient-x"></div>
+    <div class="absolute inset-0 bg-gradient-to-r from-red-600 via-red-950 to-red-800 animate-gradient-x"></div>
     
     <!-- Particle animation background (desktop only) -->
     <div class="absolute inset-0 opacity-30 hidden sm:block">
@@ -22,17 +22,17 @@
           </h1>
           
           <!-- Glowing text -->
-          <p class="text-base sm:text-lg md:text-xl mb-6 sm:mb-8 text-indigo-100 max-w-lg glow-text">
+          <p class="text-base sm:text-lg md:text-xl mb-6 sm:mb-8 text-red-100 max-w-lg glow-text">
             Himpunan Mahasiswa Teknik Informatika Universitas Universal - Wadah kreativitas, inovasi, dan pengembangan diri bagi mahasiswa TIF.
           </p>
           
           <!-- Animated buttons with hover effects -->
           <div class="flex flex-col sm:flex-row gap-3 sm:gap-4">
-            <button class="relative overflow-hidden bg-white text-indigo-600 px-6 py-3 sm:px-8 sm:py-4 rounded-lg sm:rounded-xl font-bold hover:bg-gray-100 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 group">
+            <button class="relative overflow-hidden bg-white text-red-600 px-6 py-3 sm:px-8 sm:py-4 rounded-lg sm:rounded-xl font-bold hover:bg-gray-100 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 group">
               <span class="relative z-10">Jelajahi Kegiatan</span>
               <span class="absolute inset-0 bg-gradient-to-r from-yellow-300 to-yellow-400 opacity-0 group-hover:opacity-20 transition-opacity duration-300"></span>
             </button>
-            <button class="relative overflow-hidden border-2 border-white text-white px-6 py-3 sm:px-8 sm:py-4 rounded-lg sm:rounded-xl font-bold hover:bg-white hover:text-indigo-600 transition-all duration-300 transform hover:-translate-y-1 group">
+            <button class="relative overflow-hidden border-2 border-white text-white px-6 py-3 sm:px-8 sm:py-4 rounded-lg sm:rounded-xl font-bold hover:bg-white hover:text-red-600 transition-all duration-300 transform hover:-translate-y-1 group">
               <span class="relative z-10">Daftar Anggota</span>
               <span class="absolute inset-0 bg-white opacity-0 group-hover:opacity-10 transition-opacity duration-300"></span>
             </button>
@@ -43,20 +43,20 @@
         <div class="relative hidden md:block mt-8 md:mt-0">
           <div class="relative w-full h-64 sm:h-80 md:h-96">
             <!-- 3D floating illustration -->
-            <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-48 sm:w-56 md:w-64 h-48 sm:h-56 md:h-64 bg-indigo-400 rounded-2xl shadow-2xl rotate-6 animate-float"></div>
-            <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-48 sm:w-56 md:w-64 h-48 sm:h-56 md:h-64 bg-purple-500 rounded-2xl shadow-2xl -rotate-6 animate-float-delay"></div>
+            <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-48 sm:w-56 md:w-64 h-48 sm:h-56 md:h-64 bg-red-400 rounded-2xl shadow-2xl rotate-6 animate-float"></div>
+            <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-48 sm:w-56 md:w-64 h-48 sm:h-56 md:h-64 bg-red-500 rounded-2xl shadow-2xl -rotate-6 animate-float-delay"></div>
             <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-48 sm:w-56 md:w-64 h-48 sm:h-56 md:h-64 bg-white rounded-2xl shadow-2xl flex items-center justify-center animate-float">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-20 sm:h-24 md:h-32 w-20 sm:w-24 md:w-32 text-indigo-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-20 sm:h-24 md:h-32 w-20 sm:w-24 md:w-32 text-red-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
               </svg>
             </div>
           </div>
           
           <!-- Floating tags -->
-          <div class="absolute -bottom-4 -left-4 sm:-bottom-6 sm:-left-6 bg-yellow-400 text-indigo-900 px-3 py-1 sm:px-4 sm:py-2 rounded-lg sm:rounded-xl shadow-lg font-bold animate-bounce text-xs sm:text-sm">
+          <div class="absolute -bottom-4 -left-4 sm:-bottom-6 sm:-left-6 bg-yellow-400 text-red-900 px-3 py-1 sm:px-4 sm:py-2 rounded-lg sm:rounded-xl shadow-lg font-bold animate-bounce text-xs sm:text-sm">
             #TechInnovation
           </div>
-          <div class="absolute -top-4 -right-4 sm:-top-6 sm:-right-6 bg-white text-indigo-600 px-3 py-1 sm:px-4 sm:py-2 rounded-lg sm:rounded-xl shadow-lg font-bold animate-bounce-delay text-xs sm:text-sm">
+          <div class="absolute -top-4 -right-4 sm:-top-6 sm:-right-6 bg-white text-red-600 px-3 py-1 sm:px-4 sm:py-2 rounded-lg sm:rounded-xl shadow-lg font-bold animate-bounce-delay text-xs sm:text-sm">
             #HackTheFuture
           </div>
           <div class="absolute top-1/4 -right-6 sm:-right-10 bg-pink-500 text-white px-3 py-1 sm:px-4 sm:py-2 rounded-lg sm:rounded-xl shadow-lg font-bold animate-pulse text-xs sm:text-sm">
